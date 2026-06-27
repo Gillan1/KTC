@@ -16,7 +16,7 @@ export const translations = {
   allCategories: { ar: 'كل الفئات', en: 'All Categories' },
   allStates: { ar: 'كل الولايات', en: 'All States' },
   selectState: { ar: 'اختر الولاية', en: 'Select State' },
-  priceOnRequest: { ar: 'السعر عند الطلب', en: 'Price on Request' },
+  priceOnRequest: { ar: 'تواصل معنا', en: 'Contact Us' },
   callUs: { ar: 'اتصل بنا', en: 'Call Us' },
   callNow: { ar: 'اتصل الآن', en: 'Call Now' },
   visitUs: { ar: 'زورونا', en: 'Visit Us' },

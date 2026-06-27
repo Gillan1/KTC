@@ -74,9 +74,11 @@ export function HomeView({ onNavigate }: HomeViewProps) {
               </button>
             </div>
 
-            {/* Phone CTA */}
+            {/* WhatsApp CTA */}
             <a
-              href="tel:0122011111"
+              href="https://wa.me/249122011111"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mt-6 px-4 py-2 rounded-full bg-amber-500 text-white font-bold hover:bg-amber-600 transition-colors shadow-lg"
             >
               <Phone className="h-4 w-4" />

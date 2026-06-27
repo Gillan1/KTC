@@ -71,9 +71,11 @@ export function ProductCard({ product, index }: ProductCardProps) {
             )}
           </div>
 
-          {/* Call button */}
+          {/* WhatsApp contact button */}
           <a
-            href="tel:0122011111"
+            href="https://wa.me/249122011111"
+            target="_blank"
+            rel="noopener noreferrer"
             className="block"
           >
             <Button

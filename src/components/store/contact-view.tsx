@@ -13,7 +13,7 @@ export function ContactView() {
       icon: <Phone className="h-8 w-8" />,
       title: t.phoneLabel,
       value: "0122011111",
-      href: "tel:0122011111",
+      href: "https://wa.me/249122011111",
       color: "from-emerald-500 to-teal-600",
       bgColor: "from-emerald-50 to-teal-50 dark:from-emerald-950/30 dark:to-teal-950/30",
     },
@@ -114,7 +114,9 @@ export function ContactView() {
         className="text-center"
       >
         <a
-          href="tel:0122011111"
+          href="https://wa.me/249122011111"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-lg font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all"
         >
           <Phone className="h-6 w-6" />

@@ -101,7 +101,9 @@ export function BranchesView() {
 
                   {branch.phone && (
                     <a
-                      href={`tel:${branch.phone}`}
+                      href={`https://wa.me/249${branch.phone}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-2 px-3 py-2 rounded-lg bg-emerald-50 dark:bg-emerald-950/30 hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors"
                     >
                       <Phone className="h-4 w-4 text-emerald-600" />

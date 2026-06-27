@@ -92,9 +92,11 @@ export function Header({ onToggleSidebar, onNavigate }: HeaderProps) {
         {/* Spacer for mobile */}
         <div className="flex-1 md:hidden" />
 
-        {/* Phone number - prominent */}
+        {/* WhatsApp number - prominent */}
         <a
-          href="tel:0122011111"
+          href="https://wa.me/249122011111"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-sm font-bold hover:bg-emerald-700 transition-colors"
         >
           <Phone className="h-4 w-4" />
@@ -158,7 +160,9 @@ export function Header({ onToggleSidebar, onNavigate }: HeaderProps) {
               </button>
             ))}
             <a
-              href="tel:0122011111"
+              href="https://wa.me/249122011111"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 px-4 py-3 mt-2 rounded-lg bg-emerald-600 text-white font-bold"
             >
               <Phone className="h-4 w-4" />

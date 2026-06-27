@@ -90,7 +90,7 @@ export function AppShell() {
             {/* Contact */}
             <div>
               <h4 className="font-bold text-sm mb-2">{t.contactTitle}</h4>
-              <a href="tel:0122011111" className="flex items-center justify-center sm:justify-start gap-2 text-sm hover:text-amber-300 transition-colors">
+              <a href="https://wa.me/249122011111" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center sm:justify-start gap-2 text-sm hover:text-amber-300 transition-colors">
                 <Phone className="h-4 w-4" />
                 <span dir="ltr">0122011111</span>
               </a>
