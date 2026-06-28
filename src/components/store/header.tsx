@@ -61,7 +61,7 @@ export function Header({ onToggleSidebar, onNavigate }: HeaderProps) {
           onClick={() => handleNav("home")}
           className="flex items-center gap-2 flex-shrink-0"
         >
-          <div className="w-10 h-10 rounded-lg overflow-hidden bg-emerald-50 border border-emerald-200">
+          <div className="w-12 h-12 rounded-lg overflow-hidden bg-emerald-50 border border-emerald-200">
             <img
               src={asset("/images/ktc/logo.jpg")}
               alt="KTC Logo"

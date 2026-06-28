@@ -41,7 +41,7 @@ export function HomeView({ onNavigate }: HomeViewProps) {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-              className="mx-auto mb-4 w-20 h-20 rounded-2xl overflow-hidden shadow-lg bg-white/20 backdrop-blur-sm flex items-center justify-center"
+              className="mx-auto mb-4 w-28 h-28 rounded-2xl overflow-hidden shadow-lg bg-white/20 backdrop-blur-sm flex items-center justify-center border-4 border-white/30"
             >
               <img
                 src={asset("/images/ktc/logo.jpg")}
